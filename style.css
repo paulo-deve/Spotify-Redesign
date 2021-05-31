@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(108.64deg, #2E2E2E 0.46%, #131313 102.99%);
+  backdrop-filter: blur(20px);
+}
+
+.main {
+  background: linear-gradient(108.64deg, #2E2E2E 0.46%, #131313 102.99%);
+  backdrop-filter: blur(20px);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  background: linear-gradient(108.64deg, #2E2E2E 0.46%, #131313 102.99%);
+  backdrop-filter: blur(20px);
+  padding: 20px 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  width: 120px;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header ul li a {
+  color: white;
+  margin-right: 20px;
+  transition: .6s;
+}
+
+header ul li a:hover {
+  color: #1ED760;
+}
+
+header .space {
+  cursor: default;
+}
+
+header .space:hover {
+  color: white;
+}
+
+.main-title  {
+  margin-top: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  padding: 0 500px;
+}
+
+.main-title .title-escutar h1 {
+  margin-right: 75px;
+  font-size: 100px;
+  line-height: .2;
+  font-style: normal;
+  font-weight: bold;
+
+  /* identical to box height, or 100% */
+  text-align: center;
+  color: white;
+}
+
+.main-title .title-all h2 {
+  font-size: 90px;
+  color: #1ED760;
+} 
+
+.main-title p {
+  margin-top: 10px;
+  font-size: 22px;
+  color: #F2F2F2;
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  margin-top: 40px;
+  color: #fff;
+  height: 55px;
+  width: 207px;
+  left: 743px;
+  top: 641px;
+  border-radius: 15px;
+  margin-right: 20px;
+  border: none;
+  cursor: pointer;
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+  transition: .6s;
+
+}
+
+.btn.btn-download {
+  background: #1ED760;
+}
+
+.btn.btn-download:hover {
+  border: 1px solid #fff;
+  background: transparent;
+}
+
+.btn.btn-account {
+  border: 1px solid #fff;
+  background: transparent;
+} 
+
+.btn.btn-account:hover {
+  background: #1ED760;
+  border: none;
+}
+
+.arrow-down {
+  color: #fff;
+  opacity: .5;
+}
+
+.arrow-down .fa-angle-down {
+  margin-top: 129.02px;
+  font-size: 25px;
+}
+
+.container-premium {
+  margin-top: 129.02px;
+  height: 374px;
+  width: 1240px;
+  left: 340px;
+  top: 1009px;
+  border-radius: 40px;
+  background:#141414;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container-premium .premium-text .premium-title h3 {
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
+
+.container-premium .premium-text .premium-title p {
+  margin-top: 32px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #B5B5B5;
+  margin-bottom: 17px;
+}
+
+.more-details {
+  margin-top: 60px;
+  color: #fff;
+}
+
+.btn-premium {
+  margin-bottom: 20px;
+  height: 67px;
+  width: 265px;
+  left: 1210px;
+  top: 1112px;
+  border-radius: 13px;
+  border: none;
+  cursor: pointer;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
+}
+
+.btn-premium.btn-start {
+  background: #1ED760;
+  border-radius: 13px;
+}
+
+.btn-premium.btn-start:hover {
+  border: 1px solid #fff;
+  background: transparent;
+}
+
+.btn-premium.btn-plans {
+  background: transparent;
+  border: 1px solid white;
+}
+
+.btn-premium.btn-plans:hover {
+  background: #1ED760;
+  border: none;
+}
+
+.container-content {
+  margin-bottom: 255px;
+  margin-top: 218px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-content .image-345 {
+  margin-right: 45px;
+}
+
+.container-content .image-345 img {
+  width: 575px;
+  height: 245px;
+}
+
+.container-content .content-title strong {
+  color: #1ED760;
+}
+
+.container-content .content-title h3 {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+  margin-bottom: 16px;
+}
+
+.container-content .content-title span {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #CBCBCB;
+}
+
+.download-spotify {
+  margin-top: 27px;
+  height: 40px;
+  width: 196px;
+  left: 1065px;
+  top: 1808px;
+  border-radius: 12px;
+  background: none;
+  border: 1px solid white;
+  cursor: pointer;
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+}
+
+.quick-menu {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin-bottom: 66px;
+}
+
+.quick-menu .quicks-menu h3 {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
+
+.quick-menu .quicks-menu ul {
+  margin-top: 9px;
+  list-style: none;
+}
+
+.quick-menu .quicks-menu ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #CBCBCB;
+}
+
+.quick-menu .logos-social-media {
+  margin-left: 100px;
+}
+
+.quick-menu .logos-social-media img {
+  color: #F7F7F7;
+  margin-right: 29.54px;
+}
+
+.footer {
+  padding: 10px 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer .footer-text ul {
+  list-style: none;
+  display: flex;
+  align-items: center
+}
+
+.footer .footer-text ul li a {
+  text-decoration: none;
+  margin-right: 20px;
+  color: #CBCBCB;
+
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.footer .designedby span {
+  color: #CBCBCB;
+
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
